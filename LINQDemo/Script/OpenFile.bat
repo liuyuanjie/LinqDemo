@@ -1,0 +1,1 @@
+powershell -c "C:\Users\Administrator\Desktop\LINQDemo\LINQDemo\LINQDemo\Code\Demo%1.cs"

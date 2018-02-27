@@ -1,0 +1,31 @@
+Microsoft (R) Build Engine version 4.7.2556.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+Build started 2/1/2018 6:51:51 PM.
+Project "C:\Users\Administrator\Desktop\LINQDemo\LINQDemo\LINQDemo\LINQDemo.sln" on node 1 (default targets).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Administrator\Desktop\LINQDemo\LINQDemo\LINQDemo\LINQDemo.sln" (1) is building "C:\Users\Administrator\Desktop\LINQDemo\LINQDemo\LINQDemo\LINQDemo\LINQDemo.csproj" (2) on node 1 (default targets).
+Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+EntityDeployNonEmbeddedResources:
+Skipping target "EntityDeployNonEmbeddedResources" because it has no outputs.
+EntityDeployEmbeddedResources:
+Skipping target "EntityDeployEmbeddedResources" because all output files are up-to-date with respect to the input files.
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  LINQDemo -> C:\Users\Administrator\Desktop\LINQDemo\LINQDemo\LINQDemo\LINQDemo\bin\Debug\LINQDemo.exe
+Done Building Project "C:\Users\Administrator\Desktop\LINQDemo\LINQDemo\LINQDemo\LINQDemo\LINQDemo.csproj" (default targets).
+Done Building Project "C:\Users\Administrator\Desktop\LINQDemo\LINQDemo\LINQDemo\LINQDemo.sln" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.14

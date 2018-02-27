@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LINQModelStoreContainer" CdmEntityContainer="LINQEntities">
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="LINQModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="StID" ColumnName="StID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Courses">
+      <EntityTypeMapping TypeName="LINQModel.Course">
+        <MappingFragment StoreEntitySet="Course">
+          <ScalarProperty Name="StID" ColumnName="StID" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

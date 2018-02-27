@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC556520-DBEA-4093-B8D5-EF6CC79BDEF9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LINQDemo</RootNamespace>
+    <AssemblyName>LINQDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Code\Demo1.cs">
+      <Link>From\Demo1.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo10.cs">
+      <Link>Orderby\Demo10.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo11.cs">
+      <Link>Where\Demo11.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo12.cs">
+      <Link>Where\Demo12.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo13.cs">
+      <Link>Where\Demo13.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo14.cs">
+      <Link>Groupby\Demo14.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo15.cs">
+      <Link>Groupby\Demo15.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo16.cs">
+      <Link>Groupby\Demo16.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo17.cs">
+      <Link>Groupby\Demo17.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo18.cs">
+      <Link>Groupby\Demo18.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo19.cs">
+      <Link>Groupby\Demo19.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo2.cs">
+      <Link>From\Demo2.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo20.cs">
+      <Link>Lambda\Demo20.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo21.cs">
+      <Link>Lambda\Demo21.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo22.cs">
+      <Link>XML\Demo22.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo23.cs">
+      <Link>XML\Demo23.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo24.cs">
+      <Link>XML\Demo24.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo25.cs">
+      <Link>From\Demo25.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo26.cs">
+      <Link>Orderby\Demo26.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo27.cs">
+      <Link>Orderby\Demo27.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo3.cs">
+      <Link>From\Demo3.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo4.cs">
+      <Link>From\Demo4.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo5.cs">
+      <Link>From\Demo5.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo6.cs">
+      <Link>From\Demo6.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo7.cs">
+      <Link>Join\Demo7.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo8.cs">
+      <Link>Join\Demo8.cs</Link>
+    </Compile>
+    <Compile Include="..\Code\Demo9.cs">
+      <Link>Orderby\Demo9.cs</Link>
+    </Compile>
+    <Compile Include="Model\StudentDomainModel.cs" />
+    <Compile Include="Model\Course.cs">
+      <DependentUpon>LINQ.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\LINQ.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LINQ.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\LINQ.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LINQ.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\LINQ.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LINQ.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Student.cs">
+      <DependentUpon>LINQ.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ILinqDemo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="Model\LINQ.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>LINQ.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model\LINQ.edmx.diagram">
+      <DependentUpon>LINQ.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Script\OpenFile.bat" />
+    <None Include="Script\Output.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\LINQ.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>LINQ.Context.cs</LastGenOutput>
+      <DependentUpon>LINQ.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model\LINQ.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LINQ.edmx</DependentUpon>
+      <LastGenOutput>LINQ.cs</LastGenOutput>
+    </Content>
+    <Content Include="Script\LINQ.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
